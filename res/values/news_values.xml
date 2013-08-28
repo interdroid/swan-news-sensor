@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- news sensor -->
+    <string-array name="news_valuepaths">
+        <item>recent</item>
+    </string-array>
+
+    <!-- categories -->
+    <string-array name="categories">
+        <item>algemeen</item>
+        <item>internet</item>
+        <item>sport</item>
+        <item>achterklap</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+{"name": "news",
+ "cuckoo" : "true",
+ "namespace": "interdroid.swan.cuckoo_news_sensor",
+ "doc": "A sensor for news in the Netherlands",
+ "author": "roelof &lt;rkemp@cs.vu.nl&gt;",
+ "configs": [
+  {"name": "category", 
+   "class": "ListPreference",
+   "type": "String",
+   "default": "algemeen",
+   "android:entries": "@array/categories",
+   "android:entryValues": "@array/categories",
+   "android:title" : "Category",
+   "android:summary" : "Set Category",
+   "android:dialogTitle": "Choose Category"}
+ ],
+ "valuePaths": [{"name":"recent", "type":"string"}],
+ "values": [
+  {"name": "categories", "type": "string-array", "items": ["all", "algemeen", "internet", "sport", "achterklap"]}
+ ]
+}
